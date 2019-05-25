@@ -1,0 +1,271 @@
+{
+   "commands": {
+      "builtin_commands": [ {
+         "command": "_UpOneLevel",
+         "enabled": true,
+         "keyword": ".."
+      }, {
+         "command": "_AddProject",
+         "enabled": true,
+         "keyword": "proj"
+      }, {
+         "command": "_Cmd",
+         "enabled": true,
+         "keyword": "cmd"
+      }, {
+         "command": "_CmdAdmin",
+         "enabled": true,
+         "keyword": "cmda"
+      } ]
+   },
+   "general": {
+      "language_file": "zh-CN.ini",
+      "set_focus_to_xp_explorer": false
+   },
+   "history": {
+      "search_history": false,
+      "track_history": false
+   },
+   "hotkey": {
+      "launch_apps": 775,
+      "main": 56584
+   },
+   "menu_lists": {
+      "items": [ {
+         "id": 10,
+         "root_item": {
+            "items": [ {
+               "anchor": "submenu_favorite",
+               "items": [ {
+                  "anchor": "menu_list_tc_fav_menu",
+                  "id": 400,
+                  "type": "menu_list"
+               }, {
+                  "anchor": "menu_list_favorite_global",
+                  "id": 100,
+                  "type": "menu_list"
+               }, {
+                  "anchor": "menu_list_favorite_application",
+                  "id": 101,
+                  "type": "menu_list"
+               } ],
+               "type": "submenu"
+            }, {
+               "anchor": "submenu_recent",
+               "items": [ {
+                  "anchor": "menu_list_recent",
+                  "id": 200,
+                  "type": "menu_list"
+               } ],
+               "type": "submenu"
+            }, {
+               "anchor": "submenu_smart_commands",
+               "items": [ {
+                  "anchor": "menu_list_smart_commands",
+                  "id": 300,
+                  "type": "menu_list"
+               } ],
+               "type": "submenu"
+            } ],
+            "type": "submenu"
+         }
+      }, {
+         "id": 11,
+         "root_item": {
+            "items": [ {
+               "anchor": "menu_list_tc_fav_menu",
+               "id": 400,
+               "type": "menu_list"
+            }, {
+               "anchor": "menu_list_favorite_global",
+               "id": 100,
+               "type": "menu_list"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "submenu_recent",
+               "items": [ {
+                  "anchor": "menu_list_recent",
+                  "id": 200,
+                  "type": "menu_list"
+               } ],
+               "type": "submenu"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "command_OpenedFolders",
+               "command": "_OpenedFolders",
+               "type": "command"
+            }, {
+               "anchor": "submenu_smart_commands",
+               "items": [ {
+                  "anchor": "menu_list_smart_commands",
+                  "id": 300,
+                  "type": "menu_list"
+               } ],
+               "type": "submenu"
+            }, {
+               "anchor": "command_Options",
+               "command": "_Options",
+               "type": "command"
+            } ],
+            "type": "submenu"
+         }
+      }, {
+         "id": 100,
+         "root_item": {
+            "type": "submenu"
+         }
+      }, {
+         "id": 300,
+         "root_item": {
+            "items": [ {
+               "anchor": "command_QuickSwitch",
+               "command": "_QuickSwitch",
+               "type": "command"
+            }, {
+               "anchor": "command_OpenSelectedFile",
+               "command": "_OpenSelectedFile",
+               "type": "command"
+            }, {
+               "anchor": "command_OpenedFolders",
+               "command": "_OpenedFolders",
+               "type": "command"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "command_Explore",
+               "command": "_Explore",
+               "type": "command"
+            }, {
+               "anchor": "command_Cmd",
+               "command": "_Cmd",
+               "type": "command"
+            }, {
+               "anchor": "command_CopyFolderPath",
+               "command": "_CopyFolderPath",
+               "type": "command"
+            }, {
+               "anchor": "command_CopyFilePaths",
+               "command": "_CopyFilePaths",
+               "type": "command"
+            }, {
+               "anchor": "command_GoToAppFolder",
+               "command": "_GoToAppFolder",
+               "type": "command"
+            }, {
+               "anchor": "command_ExploreAppFolder",
+               "command": "_ExploreAppFolder",
+               "type": "command"
+            }, {
+               "anchor": "command_ExportToExcel",
+               "command": "_ExportToExcel",
+               "type": "command"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "command_ToggleFileExt",
+               "command": "_ToggleFileExt",
+               "type": "command"
+            }, {
+               "anchor": "command_ToggleHidden",
+               "command": "_ToggleHidden",
+               "type": "command"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "command_DisableListary",
+               "command": "_DisableListary",
+               "type": "command"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "command_Options",
+               "command": "_Options",
+               "type": "command"
+            } ],
+            "type": "submenu"
+         }
+      }, {
+         "id": 500,
+         "root_item": {
+            "items": [ {
+               "anchor": "menu_list_favorite_global",
+               "id": 100,
+               "type": "menu_list"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "submenu_recent",
+               "items": [ {
+                  "anchor": "menu_list_recent",
+                  "id": 200,
+                  "type": "menu_list"
+               } ],
+               "type": "submenu"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "command_Options",
+               "command": "_Options",
+               "type": "command"
+            } ],
+            "type": "submenu"
+         }
+      }, {
+         "id": 501,
+         "root_item": {
+            "items": [ {
+               "anchor": "command_Options",
+               "command": "_Options",
+               "type": "command"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "command_Tutorial",
+               "command": "_Tutorial",
+               "type": "command"
+            }, {
+               "anchor": "command_OnlineHelp",
+               "command": "_OnlineHelp",
+               "type": "command"
+            }, {
+               "anchor": "command_CheckUpdates",
+               "command": "_CheckUpdates",
+               "type": "command"
+            }, {
+               "anchor": "command_About",
+               "command": "_About",
+               "type": "command"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "command_Exit",
+               "command": "_Exit",
+               "type": "command"
+            } ],
+            "type": "submenu"
+         }
+      } ],
+      "version": 0
+   },
+   "pro_license": {
+      "email": "john.james.jones@hushmail.com",
+      "name": "John James Jones",
+      "regcode": "2RJSDKSSNGSXMYNWEEH7E4T6FUVCGPPBCDADQ5LMEABJF76Y369B5LTLVXVFWUN326KQ58M78J2NNS6WKPT9CG4MJXNXH4MJYBYXSARTBNPFNVBF6UFXQUVEWXQQGSUYHFF9AVV857AENGWWMPMRN5VLHB884JEAY48FXJJ5JDY6UVTP8FMJSHDLSAXZB5HE"
+   },
+   "tip": {
+      "tutorial": false
+   },
+   "version": 1
+}
