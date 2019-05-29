@@ -1,4 +1,11 @@
 {
+   "check_update": {
+      "version_setting": {
+         "remind_later": "0",
+         "skip": false,
+         "version": "5.00.2843"
+      }
+   },
    "commands": {
       "builtin_commands": [ {
          "command": "_UpOneLevel",
