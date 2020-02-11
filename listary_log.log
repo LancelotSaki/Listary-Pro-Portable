@@ -15,3 +15,11 @@
 [0610/161910:20677261:ERROR:window_impl.cc(56)] Failed to unregister class Listary_WidgetWin_0. Error = 1412
 [0611/020313:55720593:ERROR:window_impl.cc(56)] Failed to unregister class Listary_WidgetWin_0. Error = 1412
 [0905/151111:159750125:ERROR:window_impl.cc(56)] Failed to unregister class Listary_WidgetWin_0. Error = 1412
+[1001/000448:12350078:ERROR:window_impl.cc(56)] Failed to unregister class Listary_WidgetWin_0. Error = 0
+[1012/194858:43859:WARNING:status_icon_win.cpp(28)] Unable to create status tray icon.
+[1012/194859:44578:WARNING:status_icon_win.cpp(47)] Error setting status tray icon image
+[1012/194859:44578:WARNING:status_icon_win.cpp(82)] Unable to set tooltip for status tray icon
+[1114/205525:140656:WARNING:status_icon_win.cpp(28)] Unable to create status tray icon.
+[1114/205525:140937:WARNING:status_icon_win.cpp(47)] Error setting status tray icon image
+[1114/205525:140953:WARNING:status_icon_win.cpp(82)] Unable to set tooltip for status tray icon
+[1117/192415:45829281:ERROR:window_impl.cc(56)] Failed to unregister class Listary_WidgetWin_0. Error = 0

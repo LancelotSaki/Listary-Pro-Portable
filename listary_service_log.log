@@ -16,3 +16,7 @@
 [0611/020310:WARNING:ipc_channel_win.cc(264)] Unable to create pipe "\\.\pipe\listary.ListaryService" in client mode. Error :2
 [0905/151059:ERROR:ipc_channel_win.cc(131)] pipe error: 109
 [0905/151059:WARNING:ipc_channel_win.cc(264)] Unable to create pipe "\\.\pipe\listary.ListaryService" in client mode. Error :2
+[1001/000447:ERROR:ipc_channel_win.cc(131)] pipe error: 109
+[1001/000447:WARNING:ipc_channel_win.cc(264)] Unable to create pipe "\\.\pipe\listary.ListaryService" in client mode. Error :2
+[1117/192415:ERROR:ipc_channel_win.cc(131)] pipe error: 109
+[1117/192415:WARNING:ipc_channel_win.cc(264)] Unable to create pipe "\\.\pipe\listary.ListaryService" in client mode. Error :2

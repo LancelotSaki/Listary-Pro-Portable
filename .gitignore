@@ -1,0 +1,18 @@
+### 忽略对应的后缀
+*.idea
+*.iml
+*.eml
+*.class
+*.log
+*.class
+*.project
+*.classpath
+*.gz
+*.out
+*.zip
+*.rar
+### 忽略对应名为xxx的文件夹
+
+out
+target
+.settings

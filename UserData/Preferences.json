@@ -26,6 +26,7 @@
       } ]
    },
    "general": {
+      "check_updates": false,
       "language_file": "zh-CN.ini",
       "set_focus_to_xp_explorer": false
    },
